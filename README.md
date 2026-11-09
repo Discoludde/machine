@@ -13,7 +13,7 @@
 - Controller does not handle all opcodes yet 
 - Zero value from AlU needs to be used in branch condition + some more branch logic
 - Finished top module with full circuit + muxes  
-
+- !! Now the memory uses FF ;( -> needs to use Block RAM
 ## Supported instructions
 Considering all limitations above is resolved: 
 
