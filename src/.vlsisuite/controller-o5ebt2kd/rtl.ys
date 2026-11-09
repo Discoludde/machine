@@ -1,0 +1,5 @@
+read_verilog -defer "/home/discoludde/dev/Projekt/machine/src/.vlsisuite/controller-o5ebt2kd/rtl-converted.v"
+hierarchy -check -top controller
+proc
+opt_clean
+write_json rtl.json

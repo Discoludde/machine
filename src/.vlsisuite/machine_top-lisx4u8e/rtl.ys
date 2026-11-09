@@ -1,0 +1,5 @@
+read_verilog -defer "/home/discoludde/dev/Projekt/machine/src/.vlsisuite/machine_top-lisx4u8e/rtl-converted.v"
+hierarchy -check -top machine_top
+proc
+opt_clean
+write_json rtl.json
